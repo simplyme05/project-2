@@ -1,0 +1,31 @@
+@font-face {
+  font-family: gloria;
+  src: url(../fonts/GloriaHallelujah-Regular.ttf);
+}
+@font-face {
+  font-family: montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background-color: #f7f0e2;
+}
+nav {
+  background-color: #c8c6af;
+  height: 9vh;
+}
+h1 {
+  font-size: 125px;
+  color: #875045;
+  font-family: gloria;
+}
+p {
+  font-size: 42px;
+  color: #707070;
+  font-family: montserrat;
+}
+.container-xl {
+  flex-direction: row;
+}
+img {
+  width: 300px;
+}
