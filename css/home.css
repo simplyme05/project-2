@@ -14,17 +14,14 @@ nav {
   height: 9vh;
 }
 h1 {
-  font-size: 125px;
+  font-size: 90px;
   color: #875045;
   font-family: gloria;
 }
 p {
-  font-size: 42px;
+  font-size: 35px;
   color: #707070;
   font-family: montserrat;
-}
-.container-xl {
-  flex-direction: row;
 }
 img {
   width: 300px;
