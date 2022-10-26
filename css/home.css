@@ -29,3 +29,7 @@ p {
 img {
   width: 300px;
 }
+.text-center {
+  font-size: 30px;
+  color: #875045;
+}
