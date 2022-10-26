@@ -6,13 +6,20 @@ nav {
   height: 9vh;
 }
 h1 {
-  font-size: 125px;
+  font-size: 90px;
+  color: #875045;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+h2 {
+  font-size: 60px;
   color: #875045;
   font-family: "Gloria Hallelujah", cursive;
 }
 
 p {
-  font-size: 42px;
+  font-size: 20px;
   color: #707070;
   font-family: montserrat;
+  text-align: left;
 }
