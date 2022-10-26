@@ -1,0 +1,18 @@
+body {
+  background-color: #f7f0e2;
+}
+nav {
+  background-color: #c8c6af;
+  height: 9vh;
+}
+h1 {
+  font-size: 125px;
+  color: #875045;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+p {
+  font-size: 42px;
+  color: #707070;
+  font-family: montserrat;
+}
