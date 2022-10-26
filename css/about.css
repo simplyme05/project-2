@@ -1,0 +1,22 @@
+body {
+  background-color: #f7f0e2;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", regular;
+  font-size: 90px;
+  color: #875045;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  color: #707070;
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+img {
+  max-width: 35vw;
+  margin-top: 40px;
+}
