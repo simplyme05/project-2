@@ -55,4 +55,12 @@ img {
   .position-absolute {
     display: none;
   }
+
+  .navbar {
+    display: none;
+  }
+
+  .mediabar {
+    display: block;
+  }
 }
