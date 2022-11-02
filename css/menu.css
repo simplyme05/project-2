@@ -15,56 +15,44 @@ h2 {
   font-size: 60px;
   color: #875045;
   font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
 }
 
 p {
-  font-size: 30px;
+  font-size: 25px;
   color: #707070;
   font-family: montserrat;
-  text-align: left;
+  text-align: justify;
   font-weight: 300;
 }
 
-#coffee {
-  padding: 100px;
+.dot-leader {
+  width: 700px;
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #707070;
+  font-family: montserrat;
+  text-align: justify;
+  font-weight: 300;
 }
 
-.col {
-  margin-top: 10vh;
-  margin-left: 10vw;
+.dot-leader__dots {
+  /* Bottom border */
+  border-bottom: 2px dotted #000;
+
+  /* Take remaining width */
+  flex: 1;
+
+  /* Spacing */
+  margin: 0 0.3rem;
+  align-self: flex-end;
 }
 
-.col-sm-6 {
-  padding-left: 100px;
-}
-
-.col-4 {
-  padding-left: 100px;
-}
-
-.col-8 {
-  padding-left: 100px;
-}
-
-#smoothies {
-  padding: 0px;
-}
-
-.col {
-  margin-top: 10vh;
-  margin-left: 10vw;
-}
-
-.col-sm-6 {
-  padding-left: 100px;
-}
-
-.col-4 {
-  padding-left: 100px;
-}
-
-.col-8 {
-  padding-left: 100px;
+#triangle {
+  min-width: 100vw;
 }
 
 @media screen and (max-width: 600px) {
@@ -72,24 +60,23 @@ p {
     font-size: 50px;
   }
 
-  p {
+  .dot-leader {
     font-size: 18px;
   }
 
-  #coffee {
-    padding: 0px;
+  .dot-leader {
+    max-width: 90vw;
   }
 
-  .col {
-    margin-top: 0vh;
-    margin-left: 0vw;
+  #cake {
+    display: none;
   }
 
-  .col-sm-6 {
-    padding-left: 0px;
+  .col-sm-12 {
+    margin-bottom: 20px;
   }
 
-  .col-4 {
-    padding-left: 0px;
+  #triangle {
+    display: none;
   }
 }
