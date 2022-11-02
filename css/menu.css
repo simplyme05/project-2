@@ -27,7 +27,6 @@ p {
 }
 
 .dot-leader {
-  width: 700px;
   /* Center the content */
   align-items: center;
   display: flex;
