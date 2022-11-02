@@ -6,6 +6,9 @@
   font-family: montserrat;
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
+.mediabar {
+  display: none;
+}
 body {
   background-color: #f7f0e2;
 }
@@ -53,5 +56,12 @@ p {
     text-align: center;
     color: #875045;
     font-family: montserrat;
+  }
+  .navbar {
+    display: none;
+  }
+
+  .mediabar {
+    display: block;
   }
 }
