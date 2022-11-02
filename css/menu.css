@@ -5,6 +5,11 @@ nav {
   background-color: #c8c6af;
   height: 9vh;
 }
+
+.mediabar {
+  display: none;
+}
+
 h1 {
   font-size: 90px;
   color: #875045;
@@ -19,7 +24,7 @@ h2 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 30px;
   color: #707070;
   font-family: montserrat;
   text-align: justify;
@@ -55,6 +60,14 @@ p {
 }
 
 @media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  .mediabar {
+    display: block;
+  }
+
   h2 {
     font-size: 50px;
   }
