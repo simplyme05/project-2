@@ -22,37 +22,8 @@ img {
 }
 
 .position-absolute {
-  left: 30%;
-  top: 180%;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html {
-  scroll-behavior: smooth;
-}
-
-nav {
-  background-color: #c8c6af;
-  height: 9vh;
-}
-
-#hamburger-icon {
-  display: none;
-}
-#menu-toggle {
-  display: none;
-}
-#menu {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-  width: 90%;
-  height: 100%;
-  align-items: center;
+  left: 750px;
+  top: 1520px;
 }
 
 @media screen and (max-width: 600px) {
@@ -68,17 +39,6 @@ nav {
     font-size: 18px;
   }
 
-  #menu {
-    width: 100%;
-    flex-direction: column;
-    display: none;
-  }
-  #hamburger-icon {
-    display: block;
-  }
-  #menu-toggle:checked + #menu {
-    display: flex;
-  }
   .flex {
     flex-direction: column;
     align-items: center;
