@@ -1,0 +1,94 @@
+body {
+  background-color: #f7f0e2;
+}
+nav {
+  background-color: #c8c6af;
+  height: 9vh;
+}
+
+.mediabar {
+  display: none;
+}
+
+h1 {
+  font-size: 90px;
+  color: #875045;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+h2 {
+  font-size: 60px;
+  color: #875045;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+}
+
+p {
+  font-size: 30px;
+  color: #707070;
+  font-family: montserrat;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.dot-leader {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #707070;
+  font-family: montserrat;
+  text-align: justify;
+  font-weight: 300;
+}
+
+.dot-leader__dots {
+  /* Bottom border */
+  border-bottom: 2px dotted #000;
+
+  /* Take remaining width */
+  flex: 1;
+
+  /* Spacing */
+  margin: 0 0.3rem;
+  align-self: flex-end;
+}
+
+#triangle {
+  min-width: 100vw;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+
+  .mediabar {
+    display: block;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  .dot-leader {
+    font-size: 18px;
+  }
+
+  .dot-leader {
+    max-width: 90vw;
+  }
+
+  #cake {
+    display: none;
+  }
+
+  .col-sm-12 {
+    margin-bottom: 20px;
+  }
+
+  #triangle {
+    display: none;
+  }
+}
